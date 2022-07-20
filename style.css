@@ -18,7 +18,7 @@ nav{
 
 .first-cont{
     background-image: url(img/Bg-image.png);
-    padding: 80px 0;
+    padding: 140px 0;
     padding-left: 20px;
 }
 
@@ -459,7 +459,7 @@ video{
     color:rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: #F9F9FF;
-    width: 25%;
+    width: 35%;
     height: 45px;
     border-radius: 5px;
     margin-top: 15px;
@@ -539,7 +539,7 @@ video{
 #slider .grid-screenshots{
     position: relative;
     width: 100%;
-    animation: slider 5s linear 2;
+    animation: slider 4s linear infinite;
 }
 
 #slider .grid-screenshots{
@@ -597,7 +597,7 @@ video{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         margin: 0 4px;
-        animation: slidings 4s linear 1;
+        animation: slidings 4s linear infinite;
     }
 
 
@@ -692,6 +692,7 @@ video{
     border: 1px solid #fff;
     border-radius: 7px;
     background-color: #fff;
+    animation: sliding 4s linear infinite direction fill-mode;
 }
 
 .mark img{
@@ -717,4 +718,6 @@ video{
     background-clip: text; 
     color: transparent;
 }
+
+
 
